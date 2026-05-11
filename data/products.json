@@ -1,0 +1,1875 @@
+{
+  "meta": {
+    "schema": "congoshop.products.v2",
+    "project": "Bi_Shop",
+    "city": "Brazzaville",
+    "currency": "XAF",
+    "currencySymbol": "F",
+    "whatsapp": "+242050541963",
+    "phone": "+242066518669",
+    "generatedFrom": "data.js (cgshops.netlify.app)",
+    "note": "Images optimisées vers assets/ via sync_products_images.py",
+    "updatedAt": "2026-03-17 23:16:16",
+    "generatedBy": "CONGO_ADMIN",
+    "siteName": "Bi_Shop",
+    "updatedFor": "Bi_Shop responsive storefront with Python admin"
+  },
+  "categories": [
+    {
+      "id": "all",
+      "name": "Tout"
+    },
+    {
+      "id": "tech",
+      "name": "Tech"
+    },
+    {
+      "id": "food",
+      "name": "Food"
+    },
+    {
+      "id": "mobilite",
+      "name": "Mobilité"
+    },
+    {
+      "id": "energie",
+      "name": "Énergie"
+    },
+    {
+      "id": "services",
+      "name": "Services"
+    },
+    {
+      "id": "tv",
+      "name": "TV"
+    },
+    {
+      "id": "refrigerateur",
+      "name": "Réfrigérateur"
+    },
+    {
+      "id": "split",
+      "name": "Split"
+    },
+    {
+      "id": "congelateur",
+      "name": "Congélateur"
+    },
+    {
+      "id": "iphones",
+      "name": "iPhones"
+    },
+    {
+      "id": "Papeterie",
+      "name": "Papeterie"
+    }
+  ],
+  "products": [
+    {
+      "id": "compteur-billets",
+      "title": "Compteur de billets (Safescan 2265)",
+      "subtitle": "• Compte billets mélangés EUR/GBP • rapide",
+      "tag": "Tech",
+      "categoryId": "tech",
+      "basePrice": 150000.0,
+      "availability": "Disponible",
+      "description": "Compteur de billets Safescan 2265.\nRapide et fiable.\nIdéal boutique / caisse.",
+      "hot": false,
+      "isNew": false,
+      "defaultImage": "./assets/tech_compteur_de_billets_safescan_2265.webp",
+      "gallery": [
+        "./assets/tech_compteur_de_billets_safescan_2265.webp"
+      ],
+      "variants": []
+    },
+    {
+      "id": "chrono-classeur",
+      "categoryId": "tech",
+      "title": "Chrono classeur",
+      "subtitle": "3.000F • Archivage • Bureau",
+      "tag": "Tech",
+      "availability": "Disponible",
+      "basePrice": 3000,
+      "defaultImage": "./assets/tech_chrono_classeur.webp",
+      "gallery": [
+        "./assets/tech_chrono_classeur.webp"
+      ],
+      "description": "Chrono classeur pour archivage.\nParfait pour bureau et documents.",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "micro-onde",
+      "title": "Micro-onde MagicChef",
+      "subtitle": "80.000F • Cuisine • Inox Noir",
+      "tag": "Tech",
+      "categoryId": "tech",
+      "basePrice": 80000.0,
+      "availability": "Disponible",
+      "description": "Micro-onde MagicChef.\nSimple, rapide et pratique.",
+      "hot": false,
+      "isNew": false,
+      "defaultImage": "./assets/tech_micro_onde_magicchef.webp",
+      "gallery": [
+        "./assets/tech_micro_onde_magicchef.webp"
+      ],
+      "variants": []
+    },
+    {
+      "id": "encres-epson",
+      "categoryId": "tech",
+      "title": "Encre Epson",
+      "subtitle": "À partir de 7.500F • Refill • Qualité",
+      "tag": "Impression",
+      "availability": "Disponible",
+      "basePrice": 7500,
+      "defaultImage": "./assets/tech_encre_epson.webp",
+      "gallery": [
+        "./assets/tech_encre_epson.webp"
+      ],
+      "description": "Encres Epson (refill).\nQualité impression.\nDisponible selon couleur / modèle.",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "cartouche-hp",
+      "categoryId": "tech",
+      "title": "Cartouche HP",
+      "subtitle": "À partir de 10.000F • Selon modèle imprimante",
+      "tag": "Impression",
+      "availability": "Disponible",
+      "basePrice": 10000,
+      "defaultImage": "./assets/products/cartouche-hp-cartouche-hp-2.webp",
+      "gallery": [
+        "./assets/products/cartouche-hp-cartouche-hp-2.webp"
+      ],
+      "description": "Cartouche HP.\nPrix selon modèle d’imprimante.\nDemande le modèle et on te guide.",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "imprimantes-epson",
+      "categoryId": "tech",
+      "title": "Imprimantes Epson (Neuf)",
+      "subtitle": "Choisis le modèle • Livraison Brazzaville",
+      "tag": "Imprimante",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/imprimantes-epson-imprimantes-epson-neuf-2.webp",
+      "gallery": [
+        "./assets/products/imprimantes-epson-imprimantes-epson-neuf-2.webp"
+      ],
+      "description": "Imprimantes Epson neuves.\nChoisis le modèle.\nLivraison possible à Brazzaville.",
+      "variants": [
+        {
+          "name": "Epson L5290",
+          "price": 250000,
+          "required": true,
+          "images": [
+            "./assets/products/imprimantes-epson-imprimantes-epson-neuf-2.webp"
+          ]
+        },
+        {
+          "name": "Epson L3252",
+          "price": 230000,
+          "required": true,
+          "images": [
+            "./assets/products/imprimantes-epson-imprimantes-epson-neuf-2.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "laptop-hp",
+      "categoryId": "tech",
+      "title": "Ordinateur Laptop HP",
+      "subtitle": "Choisis la configuration",
+      "tag": "Ordinateur",
+      "availability": "Sur commande / stock",
+      "basePrice": 0,
+      "defaultImage": "./assets/tech_ordinateur_laptop_hp__core_i3_8gb_512gb.webp",
+      "gallery": [
+        "./assets/tech_ordinateur_laptop_hp__core_i3_8gb_512gb.webp",
+        "./assets/tech_ordinateur_laptop_hp__core_i5_8gb_512gb.webp",
+        "./assets/tech_ordinateur_laptop_hp__core_i7_8gb_512gb.webp",
+        "./assets/tech_ordinateur_laptop_hp__core_i7_16gb_1to.webp"
+      ],
+      "description": "Laptop HP.\nChoisis la configuration (CPU/RAM/SSD).\nLivraison possible à Brazzaville.",
+      "variants": [
+        {
+          "name": "Core i3 • 8GB • 512GB",
+          "price": 250000,
+          "required": true,
+          "images": [
+            "./assets/tech_ordinateur_laptop_hp__core_i3_8gb_512gb.webp"
+          ]
+        },
+        {
+          "name": "Core i5 • 8GB • 512GB",
+          "price": 350000,
+          "required": true,
+          "images": [
+            "./assets/tech_ordinateur_laptop_hp__core_i5_8gb_512gb.webp"
+          ]
+        },
+        {
+          "name": "Core i7 • 8GB • 512GB",
+          "price": 400000,
+          "required": true,
+          "images": [
+            "./assets/tech_ordinateur_laptop_hp__core_i7_8gb_512gb.webp"
+          ]
+        },
+        {
+          "name": "Core i7 • 16GB • 1To",
+          "price": 600000,
+          "required": true,
+          "images": [
+            "./assets/tech_ordinateur_laptop_hp__core_i7_16gb_1to.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "groupe-electrogene",
+      "categoryId": "energie",
+      "title": "Groupes électrogènes",
+      "subtitle": "• Diesel • Silencieux",
+      "tag": "Énergie",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/energie_groupes_electrogenes__5_kva.webp",
+      "gallery": [
+        "./assets/energie_groupes_electrogenes__5_kva.webp",
+        "./assets/products/groupe-electrogene__groupes-electrogenes__g4.webp",
+        "./assets/products/groupe-electrogene-1kva.webp"
+      ],
+      "description": "Groupes électrogènes.\nChoisis la puissance.\nIdéal maison / boutique.",
+      "variants": [
+        {
+          "name": "5 KVA",
+          "price": 550000,
+          "required": true,
+          "images": [
+            "./assets/energie_groupes_electrogenes__5_kva.webp"
+          ]
+        },
+        {
+          "name": "9 KVA",
+          "price": 650000,
+          "required": true,
+          "images": [
+            "./assets/energie_groupes_electrogenes__9_kva.webp"
+          ]
+        },
+        {
+          "name": "1KVA",
+          "price": 90000,
+          "required": true,
+          "images": [
+            "./assets/products/groupe-electrogene-1kva.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "samsung",
+      "categoryId": "tv",
+      "title": "TV SMART SAMSUNG",
+      "subtitle": "SAMSUNG",
+      "tag": "TV",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/samsung-tv-smart-samsung.webp",
+      "gallery": [
+        "./assets/products/samsung-tv-smart-samsung.webp"
+      ],
+      "description": "TV SMART Samsung.\nChoisis la taille.",
+      "variants": [
+        {
+          "name": "32 pouces",
+          "price": 135000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__32_pouces.webp"
+          ]
+        },
+        {
+          "name": "43 pouces",
+          "price": 220222,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__43_pouces.webp"
+          ]
+        },
+        {
+          "name": "50 pouces",
+          "price": 300000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__50_pouces.webp"
+          ]
+        },
+        {
+          "name": "55 pouces",
+          "price": 400000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__55_pouces.webp"
+          ]
+        },
+        {
+          "name": "65 pouces",
+          "price": 550000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__65_pouces.webp"
+          ]
+        },
+        {
+          "name": "75 pouces",
+          "price": 1200000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__75_pouces.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "lg-tv",
+      "categoryId": "tv",
+      "title": "TV SMART LG",
+      "subtitle": "LG",
+      "tag": "TV",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/lg-tv-tv-smart.webp",
+      "gallery": [
+        "./assets/products/lg-tv-tv-smart.webp"
+      ],
+      "description": "TV SMART LG.\nChoisis la taille.",
+      "variants": [
+        {
+          "name": "32 pouces",
+          "price": 135000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__32_pouces.webp"
+          ]
+        },
+        {
+          "name": "43 pouces",
+          "price": 220000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__43_pouces.webp"
+          ]
+        },
+        {
+          "name": "50 pouces",
+          "price": 300000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__50_pouces.webp"
+          ]
+        },
+        {
+          "name": "55 pouces",
+          "price": 400000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__55_pouces.webp"
+          ]
+        },
+        {
+          "name": "65 pouces",
+          "price": 550000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__65_pouces.webp"
+          ]
+        },
+        {
+          "name": "75 pouces",
+          "price": 1200000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__75_pouces.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "hisense-tv",
+      "categoryId": "tv",
+      "title": "TV SMART HISENSE",
+      "subtitle": "HISENSE",
+      "tag": "TV",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/hisense-tv-tv-smart.webp",
+      "gallery": [
+        "./assets/products/hisense-tv-tv-smart.webp"
+      ],
+      "description": "TV SMART Hisense.\nChoisis la taille.",
+      "variants": [
+        {
+          "name": "32 pouces",
+          "price": 120000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__32_pouces.webp"
+          ]
+        },
+        {
+          "name": "43 pouces",
+          "price": 170000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__43_pouces.webp"
+          ]
+        },
+        {
+          "name": "50 pouces",
+          "price": 268000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__50_pouces.webp"
+          ]
+        },
+        {
+          "name": "55 pouces",
+          "price": 300000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__55_pouces.webp"
+          ]
+        },
+        {
+          "name": "65 pouces",
+          "price": 450000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__65_pouces.webp"
+          ]
+        },
+        {
+          "name": "75 pouces",
+          "price": 1000000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__75_pouces.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "tcl-tc",
+      "categoryId": "tv",
+      "title": "TV SMART TCL",
+      "subtitle": "• TCL",
+      "tag": "TV",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/tcl-tc-tv-smart-tcl.webp",
+      "gallery": [
+        "./assets/products/tcl-tc-tv-smart-tcl.webp"
+      ],
+      "description": "TV SMART TCL.\nChoisis la taille.",
+      "variants": [
+        {
+          "name": "32 pouces",
+          "price": 120000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__32_pouces.webp"
+          ]
+        },
+        {
+          "name": "43 pouces",
+          "price": 170000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__43_pouces.webp"
+          ]
+        },
+        {
+          "name": "50 pouces",
+          "price": 268000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__50_pouces.webp"
+          ]
+        },
+        {
+          "name": "55 pouces",
+          "price": 300000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__55_pouces.webp"
+          ]
+        },
+        {
+          "name": "65 pouces",
+          "price": 450000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__65_pouces.webp"
+          ]
+        },
+        {
+          "name": "75 pouces",
+          "price": 1000000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__75_pouces.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "east-point-tv",
+      "categoryId": "tv",
+      "title": "TV SMART",
+      "subtitle": "• EAST POINT",
+      "tag": "TV",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/tv_tv_smart__32_pouces.webp",
+      "gallery": [
+        "./assets/tv_tv_smart__32_pouces.webp"
+      ],
+      "description": "TV SMART East Point.\nChoisis la taille.",
+      "variants": [
+        {
+          "name": "32 pouces",
+          "price": 60000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__32_pouces.webp"
+          ]
+        },
+        {
+          "name": "43 pouces",
+          "price": 110000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__43_pouces.webp"
+          ]
+        },
+        {
+          "name": "50 pouces",
+          "price": 180000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__50_pouces.webp"
+          ]
+        },
+        {
+          "name": "55 pouces",
+          "price": 230000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__55_pouces.webp"
+          ]
+        },
+        {
+          "name": "65 pouces",
+          "price": 300000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__65_pouces.webp"
+          ]
+        },
+        {
+          "name": "75 pouces",
+          "price": 600000,
+          "required": true,
+          "images": [
+            "./assets/tv_tv_smart__75_pouces.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "west-pool-frigo",
+      "categoryId": "refrigerateur",
+      "title": "Réfrigérateurs",
+      "subtitle": "WEST POOL",
+      "tag": "Frigo",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/refrigerateur_refrigerateurs__82_litres.webp",
+      "gallery": [
+        "./assets/refrigerateur_refrigerateurs__82_litres.webp",
+        "./assets/refrigerateur_refrigerateurs__110_litres.webp",
+        "./assets/refrigerateur_refrigerateurs__170_litres.webp",
+        "./assets/refrigerateur_refrigerateurs__280_litres_vitree.webp",
+        "./assets/refrigerateur_refrigerateurs__400_litres.webp"
+      ],
+      "description": "Réfrigérateurs West Pool.\nChoisis la capacité.",
+      "variants": [
+        {
+          "name": "82 Litres",
+          "price": 100000,
+          "required": true,
+          "images": [
+            "./assets/refrigerateur_refrigerateurs__82_litres.webp"
+          ]
+        },
+        {
+          "name": "110 Litres",
+          "price": 120000,
+          "required": true,
+          "images": [
+            "./assets/refrigerateur_refrigerateurs__110_litres.webp"
+          ]
+        },
+        {
+          "name": "170 Litres",
+          "price": 155000,
+          "required": true,
+          "images": [
+            "./assets/refrigerateur_refrigerateurs__170_litres.webp"
+          ]
+        },
+        {
+          "name": "280 Litres (Vitrée)",
+          "price": 400000,
+          "required": true,
+          "images": [
+            "./assets/refrigerateur_refrigerateurs__280_litres_vitree.webp"
+          ]
+        },
+        {
+          "name": "400 Litres",
+          "price": 300000,
+          "required": true,
+          "images": [
+            "./assets/refrigerateur_refrigerateurs__400_litres.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "frigo-grand",
+      "categoryId": "refrigerateur",
+      "title": "Grands Réfrigérateurs",
+      "subtitle": "WEST POOL",
+      "tag": "Réfrigérateur",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/refrigerateur_grands_refrigerateurs__332l_sans_fontaine.webp",
+      "gallery": [
+        "./assets/refrigerateur_grands_refrigerateurs__332l_sans_fontaine.webp",
+        "./assets/refrigerateur_grands_refrigerateurs__387l_avec_fontaine.webp"
+      ],
+      "description": "Grands réfrigérateurs West Pool.\nChoisis le modèle.",
+      "variants": [
+        {
+          "name": "332L (Sans fontaine)",
+          "price": 400000,
+          "required": true,
+          "images": [
+            "./assets/refrigerateur_grands_refrigerateurs__332l_sans_fontaine.webp"
+          ]
+        },
+        {
+          "name": "387L (Avec fontaine)",
+          "price": 600000,
+          "required": true,
+          "images": [
+            "./assets/refrigerateur_grands_refrigerateurs__387l_avec_fontaine.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "nasco-clim",
+      "categoryId": "split",
+      "title": "Climatiseur / Split",
+      "subtitle": "NASCO",
+      "tag": "Split",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/nasco-clim-climatiseur-split.webp",
+      "gallery": [
+        "./assets/split_climatiseur_split__1_5_chevaux.webp",
+        "./assets/split_climatiseur_split__3_chevaux.webp"
+      ],
+      "description": "Climatiseur NASCO.\nChoisis la puissance.",
+      "variants": [
+        {
+          "name": "1.5 Chevaux",
+          "price": 185000,
+          "required": true,
+          "images": [
+            "./assets/split_climatiseur_split__1_5_chevaux.webp"
+          ]
+        },
+        {
+          "name": "3 Chevaux",
+          "price": 750000,
+          "required": true,
+          "images": [
+            "./assets/split_climatiseur_split__3_chevaux.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "split-westpool",
+      "categoryId": "split",
+      "title": "Climatiseur / Split",
+      "subtitle": "WEST POOL",
+      "tag": "Split",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/nasco-clim-climatiseur-split.webp",
+      "gallery": [
+        "./assets/split_climatiseur_split__1_5_chevaux.webp",
+        "./assets/split_climatiseur_split__3_chevaux_split_armoire.webp"
+      ],
+      "description": "Climatiseur West Pool.\nChoisis la puissance.",
+      "variants": [
+        {
+          "name": "1.5 Chevaux",
+          "price": 185000,
+          "required": true,
+          "images": [
+            "./assets/split_climatiseur_split__1_5_chevaux.webp"
+          ]
+        },
+        {
+          "name": "3 Chevaux Split Armoire",
+          "price": 750000,
+          "required": true,
+          "images": [
+            "./assets/split_climatiseur_split__3_chevaux_split_armoire.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "congelo-pic",
+      "categoryId": "congelateur",
+      "title": "Congélateurs",
+      "subtitle": "WEST POOL",
+      "tag": "Congélateur",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/congelo-pic-cong-lateurs.webp",
+      "gallery": [
+        "./assets/congelateur_congelateurs__150_litres.webp",
+        "./assets/congelateur_congelateurs__250_litres.webp",
+        "./assets/congelateur_congelateurs__305_litres.webp",
+        "./assets/congelateur_congelateurs__350_litres.webp",
+        "./assets/congelateur_congelateurs__450_litres.webp"
+      ],
+      "description": "Congélateurs West Pool.\nChoisis la capacité.",
+      "variants": [
+        {
+          "name": "150 Litres",
+          "price": 110000,
+          "required": true,
+          "images": [
+            "./assets/congelateur_congelateurs__150_litres.webp"
+          ]
+        },
+        {
+          "name": "250 Litres",
+          "price": 185000,
+          "required": true,
+          "images": [
+            "./assets/congelateur_congelateurs__250_litres.webp"
+          ]
+        },
+        {
+          "name": "305 Litres",
+          "price": 220000,
+          "required": true,
+          "images": [
+            "./assets/congelateur_congelateurs__305_litres.webp"
+          ]
+        },
+        {
+          "name": "350 Litres",
+          "price": 235000,
+          "required": true,
+          "images": [
+            "./assets/congelateur_congelateurs__350_litres.webp"
+          ]
+        },
+        {
+          "name": "450 Litres",
+          "price": 300000,
+          "required": true,
+          "images": [
+            "./assets/congelateur_congelateurs__450_litres.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "iphone-xr",
+      "categoryId": "iphones",
+      "title": "iPhone XR",
+      "subtitle": "Neuf • Livraison Brazzaville",
+      "tag": "Iphone",
+      "availability": "Disponible",
+      "basePrice": 120000,
+      "defaultImage": "./assets/products/iphone-xr-iphone-xr.webp",
+      "gallery": [
+        "./assets/products/iphone-xr-iphone-xr.webp"
+      ],
+      "description": "iPhone XR neuf.\nLivraison Brazzaville.",
+      "variants": [],
+      "updatedAt": 1773785776,
+      "hot": true
+    },
+    {
+      "id": "iphone-11-series",
+      "categoryId": "iphones",
+      "title": "iPhone 11 (Série)",
+      "subtitle": "Neuf • Choisis le modèle",
+      "tag": "Iphone",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/iphone-11-series-iphone-11-s-rie.webp",
+      "gallery": [
+        "./assets/products/iphone-11-series-iphone-11-s-rie.webp"
+      ],
+      "description": "Série iPhone 11.\nChoisis le modèle.",
+      "variants": [
+        {
+          "name": "iPhone 11",
+          "price": 175000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_11_serie__iphone_11.webp"
+          ]
+        },
+        {
+          "name": "iPhone 11 Pro",
+          "price": 225000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_11_serie__iphone_11_pro.webp"
+          ]
+        },
+        {
+          "name": "iPhone 11 Pro Max",
+          "price": 250000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_11_serie__iphone_11_pro_max.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776,
+      "hot": true
+    },
+    {
+      "id": "iphone-12-series",
+      "categoryId": "iphones",
+      "title": "iPhone 12 (Série)",
+      "subtitle": "Neuf • Choisis le modèle",
+      "tag": "Iphone",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/iphone-12-series-iphone-12-s-rie.webp",
+      "gallery": [
+        "./assets/products/iphone-12-series-iphone-12-s-rie.webp"
+      ],
+      "description": "Série iPhone 12.\nChoisis le modèle.",
+      "variants": [
+        {
+          "name": "iPhone 12",
+          "price": 200000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_12_serie__iphone_12.webp"
+          ]
+        },
+        {
+          "name": "iPhone 12 Pro",
+          "price": 230000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_12_serie__iphone_12_pro.webp"
+          ]
+        },
+        {
+          "name": "iPhone 12 Pro Max",
+          "price": 280000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_12_serie__iphone_12_pro_max.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776,
+      "hot": true
+    },
+    {
+      "id": "iphone-13-series",
+      "categoryId": "iphones",
+      "title": "iPhone 13 (Série)",
+      "subtitle": "Neuf • Choisis le modèle",
+      "tag": "Iphone",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/iphone-13-series-iphone-13-s-rie.webp",
+      "gallery": [
+        "./assets/products/iphone-13-series-iphone-13-s-rie.webp"
+      ],
+      "description": "Série iPhone 13.\nChoisis le modèle.",
+      "variants": [
+        {
+          "name": "iPhone 13",
+          "price": 265000,
+          "required": true,
+          "images": [
+            "./assets/products/iphone-13-series-iphone-13-2.webp"
+          ]
+        },
+        {
+          "name": "iPhone 13 Pro",
+          "price": 300000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_13_serie__iphone_13_pro.webp"
+          ]
+        },
+        {
+          "name": "iPhone 13 Pro Max",
+          "price": 350000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_13_serie__iphone_13_pro_max.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776,
+      "hot": true
+    },
+    {
+      "id": "iphone-14-series",
+      "categoryId": "iphones",
+      "title": "iPhone 14 (Série)",
+      "subtitle": "Neuf • Choisis le modèle",
+      "tag": "Iphone",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/iphone-14-series-iphone-14-s-rie.webp",
+      "gallery": [
+        "./assets/products/iphone-14-series-iphone-14-s-rie.webp"
+      ],
+      "description": "Série iPhone 14.\nChoisis le modèle.",
+      "variants": [
+        {
+          "name": "iPhone 14",
+          "price": 300000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_14_serie__iphone_14.webp"
+          ]
+        },
+        {
+          "name": "iPhone 14 Pro",
+          "price": 350000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_14_serie__iphone_14_pro.webp"
+          ]
+        },
+        {
+          "name": "iPhone 14 Pro Max",
+          "price": 450000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_14_serie__iphone_14_pro_max.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776,
+      "hot": true
+    },
+    {
+      "id": "iphone-15-series",
+      "categoryId": "iphones",
+      "title": "iPhone 15 (Série)",
+      "subtitle": "Neuf • Choisis le modèle",
+      "tag": "Iphone",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/iphone-15-series-iphone-15-s-rie.webp",
+      "gallery": [
+        "./assets/products/iphone-15-series-iphone-15-s-rie.webp"
+      ],
+      "description": "Série iPhone 15.\nChoisis le modèle.",
+      "variants": [
+        {
+          "name": "iPhone 15",
+          "price": 365000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_15_serie__iphone_15.webp"
+          ]
+        },
+        {
+          "name": "iPhone 15 Pro",
+          "price": 400000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_15_serie__iphone_15_pro.webp"
+          ]
+        },
+        {
+          "name": "iPhone 15 Pro Max",
+          "price": 500000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_15_serie__iphone_15_pro_max.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776,
+      "hot": true
+    },
+    {
+      "id": "iphone-16-series",
+      "categoryId": "iphones",
+      "title": "iPhone 16 (Série)",
+      "subtitle": "Neuf • Choisis le modèle",
+      "tag": "Iphone",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/iphone-16-series-iphone-16-s-rie.webp",
+      "gallery": [
+        "./assets/products/iphone-16-series-iphone-16-s-rie.webp"
+      ],
+      "description": "Série iPhone 16.\nChoisis le modèle.",
+      "variants": [
+        {
+          "name": "iPhone 16",
+          "price": 450000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_16_serie__iphone_16.webp"
+          ]
+        },
+        {
+          "name": "iPhone 16 Plus",
+          "price": 500000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_16_serie__iphone_16_plus.webp"
+          ]
+        },
+        {
+          "name": "iPhone 16 Pro",
+          "price": 550000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_16_serie__iphone_16_pro.webp"
+          ]
+        },
+        {
+          "name": "iPhone 16 Pro Max",
+          "price": 650000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_16_serie__iphone_16_pro_max.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776,
+      "hot": true
+    },
+    {
+      "id": "iphone-17-series",
+      "categoryId": "iphones",
+      "title": "iPhone 17 (Série)",
+      "subtitle": "Neuf • Choisis le modèle",
+      "tag": "Iphone",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/products/iphone-17-series-iphone-17-s-rie.webp",
+      "gallery": [
+        "./assets/products/iphone-17-series-iphone-17-s-rie.webp",
+        "./assets/iphones_iphone_17_serie__iphone_17_pro.webp",
+        "./assets/iphones_iphone_17_serie__iphone_17_pro_max.webp"
+      ],
+      "description": "Série iPhone 17.\nChoisis le modèle.",
+      "variants": [
+        {
+          "name": "iPhone 17",
+          "price": 600000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_17_serie__iphone_17.webp"
+          ]
+        },
+        {
+          "name": "iPhone 17 Pro",
+          "price": 750000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_17_serie__iphone_17_pro.webp"
+          ]
+        },
+        {
+          "name": "iPhone 17 Pro Max",
+          "price": 900000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_17_serie__iphone_17_pro_max.webp"
+          ]
+        },
+        {
+          "name": "iPhone 17R",
+          "price": 650000,
+          "required": true,
+          "images": [
+            "./assets/iphones_iphone_17_serie__iphone_17r.webp"
+          ]
+        }
+      ],
+      "updatedAt": 1773785776,
+      "hot": true
+    },
+    {
+      "id": "Sous chemise",
+      "categoryId": "Papeterie",
+      "title": "Sous chemise",
+      "subtitle": "Le meilleur des sous chemises",
+      "tag": "Papeterie",
+      "availability": "Disponible",
+      "basePrice": 5000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Papier bristol",
+      "categoryId": "Papeterie",
+      "title": "Papier bristol",
+      "subtitle": "Livraison disponible!",
+      "tag": "Papeterie",
+      "availability": "Disponible",
+      "basePrice": 5000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [
+        {
+          "name": "Paquet",
+          "price": 5000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Carton",
+          "price": 30000,
+          "required": true,
+          "images": []
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Papier transparent",
+      "categoryId": "Papeterie",
+      "title": "Papier transparent",
+      "subtitle": "Livraison disponible!",
+      "tag": "Papeterie",
+      "availability": "Disponible",
+      "basePrice": 5000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [
+        {
+          "name": "Paquet",
+          "price": 5000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Carton",
+          "price": 30000,
+          "required": true,
+          "images": []
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Bloc notes",
+      "categoryId": "Papeterie",
+      "title": "Bloc notes",
+      "subtitle": "Livraison disponible!",
+      "tag": "Papeterie",
+      "availability": "Disponible",
+      "basePrice": 1000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [
+        {
+          "name": "Petit",
+          "price": 1000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Grand",
+          "price": 2500,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Paquet Petit",
+          "price": 5000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Paquet Grand",
+          "price": 12000,
+          "required": true,
+          "images": []
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Courrier",
+      "categoryId": "Papeterie",
+      "title": "Courrier",
+      "subtitle": "Livraison disponible!",
+      "tag": "Papeterie",
+      "availability": "Disponible",
+      "basePrice": 3500,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [
+        {
+          "name": "Arrivé",
+          "price": 4000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Départ",
+          "price": 3500,
+          "required": true,
+          "images": []
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Chemise rabat",
+      "categoryId": "Papeterie",
+      "title": "Chemise rabat",
+      "subtitle": "Livraison disponible!",
+      "tag": "Papeterie",
+      "availability": "Disponible",
+      "basePrice": 1000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [
+        {
+          "name": "Paquet",
+          "price": 10000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Carton",
+          "price": 50000,
+          "required": true,
+          "images": []
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Perforateur",
+      "categoryId": "Papeterie",
+      "title": "Perforateur",
+      "subtitle": "Livraison disponible!",
+      "tag": "Papeterie",
+      "availability": "Disponible",
+      "basePrice": 15000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Libra Desk",
+      "categoryId": "Papeterie",
+      "title": "Libra Desk",
+      "subtitle": "Livraison disponible partout dans Brazzaville!",
+      "tag": "Papeterie",
+      "availability": "Disponible",
+      "basePrice": 10000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Imprimante thermique",
+      "categoryId": "tech",
+      "title": "Imprimante thermique",
+      "subtitle": "Livraison disponible partout dans Brazzaville!",
+      "tag": "Imprimante",
+      "availability": "Disponible",
+      "basePrice": 30000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Drones",
+      "categoryId": "tech",
+      "title": "Drones",
+      "subtitle": "Livraison disponible partout dans Brazzaville!",
+      "tag": "Tech",
+      "availability": "Disponible",
+      "basePrice": 20000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [
+        {
+          "name": "8 minutes de vol",
+          "price": 20000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "20 minutes de vol",
+          "price": 50000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "1 Heure de vol",
+          "price": 100000,
+          "required": true,
+          "images": []
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Play Station 2",
+      "categoryId": "tech",
+      "title": "Play Station 2",
+      "subtitle": "Livraison disponible partout dans Brazzaville!",
+      "tag": "Jeux",
+      "availability": "Disponible",
+      "basePrice": 40000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Play Station 3",
+      "categoryId": "tech",
+      "title": "Play Station 3",
+      "subtitle": "Livraison disponible partout dans Brazzaville!",
+      "tag": "Jeux",
+      "availability": "Disponible",
+      "basePrice": 80000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Play Station 4",
+      "categoryId": "tech",
+      "title": "Play Station 4",
+      "subtitle": "Livraison disponible partout dans Brazzaville!",
+      "tag": "Jeux",
+      "availability": "Disponible",
+      "basePrice": 120000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Play Station 5",
+      "categoryId": "tech",
+      "title": "Play Station 5",
+      "subtitle": "Livraison disponible partout dans Brazzaville!",
+      "tag": "Jeux",
+      "availability": "Disponible",
+      "basePrice": 500000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [
+        {
+          "name": "PS5 512GB",
+          "price": 500000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "PS5 1 Tera",
+          "price": 700000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "PS5 PRO 512GB",
+          "price": 650000,
+          "required": true,
+          "images": []
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Lunettes Smart",
+      "categoryId": "tech",
+      "title": "Lunettes Smart & Camera",
+      "subtitle": "Livraison disponible partout dans Brazzaville!",
+      "tag": "Tech",
+      "availability": "Disponible",
+      "basePrice": 80000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [
+        {
+          "name": "Simple",
+          "price": 80000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "avec carte memoire 16Gb",
+          "price": 90000,
+          "required": true,
+          "images": []
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Site web",
+      "categoryId": "tech",
+      "title": "Site web",
+      "subtitle": "Suivi en temps reel. Payez en heure.",
+      "tag": "Services",
+      "availability": "Disponible",
+      "basePrice": 20000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [
+        {
+          "name": "Front-End",
+          "price": 20000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Back-End",
+          "price": 50000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Bases de donnees",
+          "price": 30000,
+          "required": true,
+          "images": []
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Serveurs",
+      "categoryId": "tech",
+      "title": "Serveurs",
+      "subtitle": "Pour vos services, entreprises, et autres...",
+      "tag": "Services",
+      "availability": "Disponible",
+      "basePrice": 100000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Pack Office",
+      "categoryId": "services",
+      "title": "Pack Office",
+      "subtitle": "Installation sur place ou a domicile.",
+      "tag": "Services",
+      "availability": "Disponible",
+      "basePrice": 8000,
+      "defaultImage": "./assets/products/pack-office__pack-office__g1.webp",
+      "gallery": [
+        "./assets/products/pack-office__pack-office__g1.webp"
+      ],
+      "description": "",
+      "variants": [],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "Windows",
+      "title": "Windows Installation",
+      "subtitle": "Installation sur place ou a domicile",
+      "tag": "Services",
+      "categoryId": "services",
+      "basePrice": 0.0,
+      "availability": "Disponible",
+      "description": "",
+      "hot": false,
+      "isNew": false,
+      "defaultImage": "./assets/7f12b8b931.jpeg",
+      "gallery": [],
+      "variants": [
+        {
+          "name": "Windows 10",
+          "price": 3000,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "Windows 11",
+          "price": 5000,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "Windows sur Macbook",
+          "price": 20000,
+          "required": true,
+          "image": "",
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "Mac OS",
+      "categoryId": "services",
+      "title": "Mac OS installation",
+      "subtitle": "Installation du systeme Apple sur votre ordinateur.",
+      "tag": "Services",
+      "availability": "Disponible",
+      "basePrice": 10000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "",
+      "variants": [
+        {
+          "name": "Macintoch",
+          "price": 10000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Montessory",
+          "price": 15000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Mac M",
+          "price": 25000,
+          "required": true,
+          "images": []
+        },
+        {
+          "name": "Mac OS sur Windows",
+          "price": 30000,
+          "required": true,
+          "images": []
+        }
+      ],
+      "updatedAt": 1773785776
+    },
+    {
+      "id": "moto-electrique",
+      "categoryId": "mobilite",
+      "title": "Moto Électrique",
+      "subtitle": "Silencieuse · Économique · Sans carburant",
+      "tag": "Mobilité",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "Motos électriques disponibles en plusieurs modèles. Silencieuses, économiques. Contactez-nous pour le catalogue.",
+      "hot": true,
+      "isNew": true,
+      "variants": [
+        {
+          "name": "Standard",
+          "price": 850000,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "Sport",
+          "price": 1200000,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "Cargo",
+          "price": 950000,
+          "required": true,
+          "image": "",
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "voiture-electrique",
+      "categoryId": "mobilite",
+      "title": "Voiture Électrique",
+      "subtitle": "Sur commande · Toutes marques",
+      "tag": "Mobilité",
+      "availability": "Sur commande",
+      "basePrice": 8000000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "Voitures électriques sur commande. Différentes marques et modèles disponibles.",
+      "isNew": true,
+      "variants": []
+    },
+    {
+      "id": "poulet-yassa",
+      "categoryId": "food",
+      "title": "Poulet Yassa",
+      "subtitle": "Recette traditionnelle · Livré chaud",
+      "tag": "Food",
+      "availability": "Disponible",
+      "basePrice": 3500,
+      "defaultImage": "./assets/yassa.jpg",
+      "gallery": [
+        "./assets/yassa.jpg"
+      ],
+      "description": "Poulet yassa traditionnel préparé avec soin. Livré chaud directement chez vous.",
+      "hot": true,
+      "variants": [
+        {
+          "name": "Portion individuelle",
+          "price": 3500,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "Grande portion",
+          "price": 6000,
+          "required": true,
+          "image": "",
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "saka-saka",
+      "categoryId": "food",
+      "title": "Saka Saka",
+      "subtitle": "Feuilles de manioc · Saveur Congo",
+      "tag": "Food",
+      "availability": "Disponible",
+      "basePrice": 2500,
+      "defaultImage": "./assets/saka-saka.jpg",
+      "gallery": [
+        "./assets/saka-saka.jpg"
+      ],
+      "description": "Saka saka (feuilles de manioc) préparé à la manière congolaise.",
+      "variants": [
+        {
+          "name": "Individuel",
+          "price": 2500,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "Grande portion",
+          "price": 4500,
+          "required": true,
+          "image": "",
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "machine-laver",
+      "categoryId": "tech",
+      "title": "Machine à Laver LG",
+      "subtitle": "Frontale / Top · 7kg à 9kg",
+      "tag": "Électroménager",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "./assets/machine-laver-lg.jpg",
+      "gallery": [
+        "./assets/machine-laver-lg.jpg"
+      ],
+      "description": "Machine à laver LG. Livraison et installation à Brazzaville.",
+      "hot": true,
+      "variants": [
+        {
+          "name": "7kg Frontale",
+          "price": 250000,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "9kg Frontale",
+          "price": 350000,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "9kg Top",
+          "price": 300000,
+          "required": true,
+          "image": "",
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "app-mobile",
+      "categoryId": "services",
+      "title": "Application Mobile",
+      "subtitle": "Android & iOS · Sur mesure",
+      "tag": "Services",
+      "availability": "Disponible",
+      "basePrice": 0,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "Conception et développement d'applications mobiles sur mesure.",
+      "isNew": true,
+      "variants": [
+        {
+          "name": "App Simple",
+          "price": 100000,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "App Standard",
+          "price": 300000,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "App Complexe",
+          "price": 600000,
+          "required": true,
+          "image": "",
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "cybersecurite",
+      "categoryId": "services",
+      "title": "Cybersécurité",
+      "subtitle": "Audit · Protection · Sécurisation",
+      "tag": "Services",
+      "availability": "Disponible",
+      "basePrice": 30000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "Audit de sécurité, protection et sécurisation de vos systèmes.",
+      "variants": [
+        {
+          "name": "Audit basique",
+          "price": 30000,
+          "required": true,
+          "image": "",
+          "images": []
+        },
+        {
+          "name": "Sécurisation complète",
+          "price": 80000,
+          "required": true,
+          "image": "",
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "script-auto",
+      "categoryId": "services",
+      "title": "Scripts & Automatisation",
+      "subtitle": "Bots, scripts, workflows auto",
+      "tag": "Services",
+      "availability": "Disponible",
+      "basePrice": 20000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "Scripts Python, bots Telegram/WhatsApp, automatisation de tâches, workflows.",
+      "variants": []
+    },
+    {
+      "id": "trottinette",
+      "categoryId": "mobilite",
+      "title": "Trottinette Électrique",
+      "subtitle": "Légère · Pliable · Urbaine",
+      "tag": "Mobilité",
+      "availability": "Disponible",
+      "basePrice": 180000,
+      "defaultImage": "",
+      "gallery": [],
+      "description": "Trottinette électrique pliable. Parfaite pour se déplacer en ville.",
+      "isNew": true,
+      "variants": []
+    }
+  ]
+}

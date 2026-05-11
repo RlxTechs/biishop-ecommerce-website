@@ -1,0 +1,14 @@
+﻿.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+Thumbs.db
+backup*/
+*_backup/
+bi_shop_netlify_clean/
+*.zip
+node_modules/
+.netlify/

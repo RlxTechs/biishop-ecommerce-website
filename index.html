@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7fbff" />
+  <meta name="description" content="Bi_Shop — boutique en ligne à Brazzaville. Articles tendance, tech, iPhone, TV, électroménager, papeterie, services et food." />
+  <title>Bi_Shop — Drops & catalogue</title>
+  <link rel="preload" href="./static/css/styles.css" as="style" />
+  <link rel="stylesheet" href="./static/css/styles.css" />
+</head>
+<body data-theme="light">
+  <div class="fx-bg" aria-hidden="true"></div>
+  <header class="topbar" id="topbar">
+    <button class="brand animated-brand" data-scroll="top" aria-label="Accueil Bi_Shop">
+      <span class="brand-mark brand-spin" aria-hidden="true"><span class="brand-letter">B</span><span class="brand-pop" id="brandPop">🛒</span></span>
+      <span class="brand-text"><strong class="neon-logo">Bi_Shop</strong><small>Drops · Brazzaville</small></span>
+    </button>
+    <div class="top-search">
+      <input id="searchInput" type="search" placeholder="Chercher iPhone, TV, laptop..." autocomplete="off" />
+      <button id="clearSearch" aria-label="Effacer la recherche">×</button>
+    </div>
+    <div class="top-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Changer le mode clair ou sombre" title="Changer le thème"><span id="themeIcon">☀️</span><small id="themeLabel">Clair</small></button>
+      <button class="cart-btn" id="openCart" aria-label="Ouvrir le panier"><span id="cartCount">0</span>🛍️</button>
+    </div>
+  </header>
+
+  <main class="page" id="top">
+    <section class="drop-hero" aria-label="Articles mis en avant">
+      <div class="hero-copy">
+        <span class="drop-label">⚡ Bi_Shop Drops</span>
+        <h1>Les articles qui partent vite.</h1>
+        <p>Défile, choisis, commande. Le vendeur confirme directement sur WhatsApp.</p>
+        <div class="hero-mini-actions">
+          <button class="primary compact" id="heroBuyBtn">Acheter ce drop</button>
+          <button class="ghost compact" data-scroll="catalogueSection">Voir tout</button>
+        </div>
+      </div>
+
+      <div class="showcase" id="showcase">
+        <button class="nav-arrow left" id="prevDrop" aria-label="Article précédent">‹</button>
+        <div class="showcase-stage" id="showcaseStage"></div>
+        <button class="nav-arrow right" id="nextDrop" aria-label="Article suivant">›</button>
+        <div class="drop-progress"><span id="dropProgress"></span></div>
+      </div>
+
+      <div class="drop-thumbs" id="dropThumbs" aria-label="Miniatures des drops"></div>
+
+      <div class="trust-ticker" aria-label="Informations importantes">
+        <span>🚚 Livraison gratuite hors nourriture</span>
+        <span>🍔 Nourriture : 500F Moungali/proche</span>
+        <span>💬 Commande directe WhatsApp</span>
+        <span>⚡ Stock limité selon disponibilité</span>
+      </div>
+    </section>
+
+    <section class="quick-panel" id="quickPanel">
+      <div class="section-title tight">
+        <div><span class="eyebrow">Rayons rapides</span><h2>Trouve vite ce que tu veux</h2></div>
+        <small id="productStats">Chargement...</small>
+      </div>
+      <div class="category-strip" id="categoryStrip"></div>
+    </section>
+
+    <section class="section-block" id="hotSection">
+      <div class="section-title">
+        <div><span class="eyebrow">Tendance</span><h2>Ça peut partir aujourd’hui</h2></div>
+        <button class="ghost tiny" data-scroll="catalogueSection">Catalogue</button>
+      </div>
+      <div class="hot-rail" id="hotProducts"></div>
+    </section>
+
+    <section class="section-block catalogue" id="catalogueSection">
+      <div class="section-title catalogue-head">
+        <div><span class="eyebrow" id="catalogueEyebrow">Catalogue</span><h2 id="catalogueTitle">Tous les articles</h2></div>
+        <select id="sortSelect" aria-label="Trier les produits">
+          <option value="featured">Recommandés</option>
+          <option value="price-asc">Prix croissant</option>
+          <option value="price-desc">Prix décroissant</option>
+          <option value="name">Nom A-Z</option>
+        </select>
+      </div>
+      <div class="products-grid" id="productsGrid"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <h3>Aucun article trouvé</h3>
+        <p>Essaie un autre mot-clé ou reviens sur “Tout”.</p>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navigation principale">
+    <button data-scroll="top" class="active">🏠<span>Accueil</span></button>
+    <button data-scroll="showcase">🔥<span>Drops</span></button>
+    <button data-scroll="catalogueSection">🛒<span>Articles</span></button>
+    <button id="navCart">🛍️<span>Panier</span></button>
+  </nav>
+
+  <button class="back-top" id="backTop" aria-label="Retour en haut">↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+
+  <aside class="drawer" id="cartDrawer" aria-hidden="true">
+    <div class="drawer-panel">
+      <div class="drawer-head">
+        <div><span class="eyebrow">Panier</span><h2>Ta commande</h2></div>
+        <button class="icon-btn" id="closeCart" aria-label="Fermer">×</button>
+      </div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-footer">
+        <div class="delivery-box" id="deliveryBox" hidden>
+          <label>
+            <span>Livraison nourriture</span>
+            <select id="foodDeliveryArea">
+              <option value="near">Moungali / proche — 500F</option>
+              <option value="far">Plus loin — à partir de 800F</option>
+            </select>
+          </label>
+          <small>Pour la nourriture, le prix peut augmenter selon la distance exacte.</small>
+        </div>
+        <div class="checkout-fields">
+          <label><span>Adresse / zone de livraison <b>*</b></span><input id="orderAddress" type="text" placeholder="Ex: Moungali, rue..., près de..." autocomplete="street-address" /></label>
+          <label><span>Notes supplémentaires</span><textarea id="orderNotes" rows="3" placeholder="Ex: couleur, heure de disponibilité, monnaie..."></textarea></label>
+        </div>
+        <div class="total-line"><span>Sous-total</span><strong id="cartSubtotal">0 F</strong></div>
+        <div class="total-line delivery"><span>Livraison</span><strong id="cartDelivery">Gratuite</strong></div>
+        <div class="total-row"><span>Total estimé</span><strong id="cartTotal">0 F</strong></div>
+        <p class="note" id="deliveryNote">Livraison gratuite pour les articles hors nourriture.</p>
+        <button class="primary full" id="checkoutBtn">Commander sur WhatsApp</button>
+      </div>
+    </div>
+  </aside>
+
+  <section class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="closeModal" aria-label="Fermer">×</button>
+      <div class="detail-visual">
+        <img id="detailImage" alt="" />
+        <div class="detail-glow" aria-hidden="true"></div>
+        <div class="image-dots" id="imageDots"></div>
+      </div>
+      <div class="detail-content">
+        <div class="detail-brand"><span id="detailTag">Bi_Shop</span><span id="detailAvailability">Disponible</span></div>
+        <h2 id="detailTitle"></h2>
+        <p id="detailSubtitle"></p>
+        <div class="price-line"><strong id="detailPrice"></strong><span id="detailOldPrice"></span></div>
+        <div class="variant-block" id="variantBlock" hidden>
+          <b>Choisis une option avant d’ajouter au panier</b>
+          <div class="variant-list" id="variantList"></div>
+        </div>
+        <p class="description" id="detailDescription"></p>
+        <div class="detail-actions">
+          <button class="ghost full" id="detailWhatsApp">Demander</button>
+          <button class="primary full" id="detailAddCart">Ajouter au panier</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./static/js/app.js" defer></script>
+</body>
+</html>

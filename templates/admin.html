@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tableau de bord — Bi_Shop</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}" />
+</head>
+<body>
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <div class="side-brand"><div class="admin-logo">B</div><div><b>Bi_Shop</b><span>Admin catalogue</span></div></div>
+      <nav>
+        <button class="nav-btn active" data-panel="productsPanel">🛒 Produits</button>
+        <button class="nav-btn" data-panel="categoriesPanel">🏷️ Catégories</button>
+        <button class="nav-btn" data-panel="settingsPanel">⚙️ Paramètres</button>
+        <a href="/" target="_blank">👁️ Voir le site</a>
+        <a href="/admin/logout">🚪 Déconnexion</a>
+      </nav>
+    </aside>
+
+    <main class="workspace">
+      <header class="admin-top">
+        <div>
+          <span class="eyebrow">Dashboard</span>
+          <h1>Contrôle total du site</h1>
+        </div>
+        <div class="top-actions">
+          <button id="backupBtn" class="ghost">Créer backup</button>
+          <button id="saveAllBtn" class="primary">Sauvegarder tout</button>
+        </div>
+      </header>
+
+      <section class="stats-grid">
+        <div class="stat"><span>Produits</span><b id="statProducts">0</b></div>
+        <div class="stat"><span>Catégories</span><b id="statCategories">0</b></div>
+        <div class="stat"><span>WhatsApp</span><b id="statWhatsapp">—</b></div>
+      </section>
+
+      <section class="panel show" id="productsPanel">
+        <div class="panel-head">
+          <div><h2>Produits</h2><p>Ajoute, modifie, supprime, mets en avant et change les images.</p></div>
+          <button id="newProductBtn" class="primary">+ Nouveau produit</button>
+        </div>
+        <div class="split">
+          <div class="list-card">
+            <input id="productSearch" class="search" placeholder="Rechercher un produit..." />
+            <div id="productList" class="product-list"></div>
+          </div>
+          <form id="productForm" class="edit-card">
+            <div class="form-head"><h3 id="formTitle">Modifier produit</h3><span id="saveStatus"></span></div>
+            <div class="grid-2">
+              <label>ID unique<input name="id" placeholder="ex: iphone-15" /></label>
+              <label>Catégorie<select name="categoryId" id="categorySelect"></select></label>
+            </div>
+            <label>Nom du produit<input name="title" placeholder="Ex: iPhone 15 Pro Max" required /></label>
+            <label>Sous-titre<input name="subtitle" placeholder="Neuf · Livraison Brazzaville" /></label>
+            <div class="grid-3">
+              <label>Tag<input name="tag" placeholder="Tech" /></label>
+              <label>Prix de base<input name="basePrice" type="number" min="0" step="1" /></label>
+              <label>Disponibilité<input name="availability" placeholder="Disponible" /></label>
+            </div>
+            <label>Description<textarea name="description" rows="4" placeholder="Description commerciale..."></textarea></label>
+            <div class="toggles">
+              <label><input name="hot" type="checkbox" /> Produit populaire</label>
+              <label><input name="isNew" type="checkbox" /> Nouveau</label>
+            </div>
+            <div class="image-tools">
+              <label>Image principale<input name="defaultImage" placeholder="./static/assets/products/image.webp" /></label>
+              <div>
+                <input id="imageUpload" type="file" accept="image/*" />
+                <button type="button" id="uploadBtn" class="ghost">Uploader image</button>
+              </div>
+              <img id="previewImage" class="preview" alt="Prévisualisation" />
+            </div>
+            <label>Galerie, une image par ligne<textarea name="gallery" rows="3" placeholder="./static/assets/products/photo1.webp"></textarea></label>
+            <label>Variantes en JSON<textarea name="variants" rows="7" spellcheck="false" placeholder='[{"name":"32 pouces","price":60000,"images":[]}]'></textarea></label>
+            <div class="form-actions">
+              <button type="button" id="duplicateBtn" class="ghost">Dupliquer</button>
+              <button type="button" id="deleteBtn" class="danger">Supprimer</button>
+              <button type="submit" class="primary">Sauvegarder produit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="panel" id="categoriesPanel">
+        <div class="panel-head"><div><h2>Catégories</h2><p>Une ligne par catégorie. Le format est : id | Nom visible</p></div></div>
+        <textarea id="categoriesText" rows="14" class="big-text"></textarea>
+        <button id="applyCategoriesBtn" class="primary">Appliquer les catégories</button>
+      </section>
+
+      <section class="panel" id="settingsPanel">
+        <div class="panel-head"><div><h2>Paramètres boutique</h2><p>Infos utilisées dans le site et WhatsApp.</p></div></div>
+        <form id="settingsForm" class="edit-card simple">
+          <div class="grid-2">
+            <label>Nom boutique<input name="project" value="Bi_Shop" /></label>
+            <label>Ville<input name="city" /></label>
+          </div>
+          <div class="grid-2">
+            <label>WhatsApp<input name="whatsapp" /></label>
+            <label>Téléphone<input name="phone" /></label>
+          </div>
+          <div class="grid-2">
+            <label>Devise<input name="currency" /></label>
+            <label>Symbole<input name="currencySymbol" /></label>
+          </div>
+          <button class="primary" type="submit">Sauvegarder paramètres</button>
+        </form>
+        <div class="help-box">
+          <h3>Conseil sécurité</h3>
+          <p>Pour une vraie mise en production, change le mot de passe admin avec la variable <code>BI_SHOP_ADMIN_PASSWORD</code> et garde le dossier admin privé.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="{{ url_for('static', filename='js/admin.js') }}" defer></script>
+</body>
+</html>

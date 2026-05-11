@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Bi_Shop</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}" />
+</head>
+<body class="login-body">
+  <main class="login-card">
+    <div class="admin-logo">B</div>
+    <h1>Admin Bi_Shop</h1>
+    <p>Connecte-toi pour gérer les produits, prix, catégories, images et commandes WhatsApp.</p>
+    {% if error %}<div class="alert">{{ error }}</div>{% endif %}
+    <form method="post">
+      <label>Mot de passe admin</label>
+      <input name="password" type="password" placeholder="Mot de passe" autofocus required />
+      <button type="submit">Entrer</button>
+    </form>
+    <small>Mot de passe local par défaut : <b>admin123</b>. Change-le avant utilisation réelle.</small>
+  </main>
+</body>
+</html>
